@@ -28,6 +28,8 @@ nav > ul > li {
 }
 
 .about-me img {
+  width: 150px;
+  height: 150px;
   border: 2px solid;
   border-radius: 50%;
 }
