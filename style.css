@@ -19,3 +19,8 @@ nav > ul > li {
 .logo {
   margin-right: auto;
 }
+
+.about-me img {
+  border: 2px solid;
+  border-radius: 50%;
+}
