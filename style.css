@@ -1,2 +1,8 @@
 body {
+  /* will add background color later */
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
 }
