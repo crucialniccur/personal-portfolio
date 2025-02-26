@@ -32,9 +32,17 @@ nav > ul > li {
   height: 150px;
   border: 2px solid;
   border-radius: 50%;
+
   filter: grayscale(80%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.this-is-me img {
+  display: inline-block;
+  overflow: hidden;
 }
 
 .about-me img:hover {
   filter: grayscale(0%);
+  transition: scale(1.1);
 }
