@@ -36,4 +36,5 @@ nav > ul > li {
 }
 
 .about-me img:hover {
+  filter: grayscale(0%);
 }
