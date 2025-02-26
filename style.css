@@ -32,4 +32,8 @@ nav > ul > li {
   height: 150px;
   border: 2px solid;
   border-radius: 50%;
+  filter: grayscale(80%);
+}
+
+.about-me img:hover {
 }
