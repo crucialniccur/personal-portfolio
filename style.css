@@ -20,6 +20,13 @@ nav > ul > li {
   margin-right: auto;
 }
 
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-me img {
   border: 2px solid;
   border-radius: 50%;
