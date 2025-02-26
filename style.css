@@ -2,6 +2,10 @@ body {
   /* will add background color later */
 }
 
+nav {
+  border-bottom: 2px dotted grey;
+}
+
 nav > ul {
   display: flex;
   flex-direction: row;
