@@ -19,3 +19,8 @@ nav > ul > li {
 .logo {
   margin-right: auto;
 }
+
+.projects {
+  border: 1px solid;
+  border-radius: 10px;
+}
