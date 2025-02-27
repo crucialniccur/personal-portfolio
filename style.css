@@ -23,4 +23,6 @@ nav > ul > li {
 .projects {
   border: 1px solid;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
