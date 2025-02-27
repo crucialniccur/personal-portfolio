@@ -25,4 +25,5 @@ nav > ul > li {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
