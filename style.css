@@ -27,3 +27,7 @@ nav > ul > li {
   flex-direction: column;
   margin: 10px;
 }
+
+.nest-projects {
+  display: flex;
+}
