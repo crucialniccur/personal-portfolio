@@ -42,10 +42,10 @@ nav > ul > li {
 }
 
 .about-me {
-  border: 2px solid grey;
-  margin: 10px;
-  border-radius: 20px;
+  /* border: 2px solid grey; */
+  /* border-radius: 20px; */
   padding: 5px;
+  margin: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
