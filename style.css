@@ -45,3 +45,8 @@ nav > ul > li {
   margin: 10px;
   border-radius: 20px;
 }
+
+.cards {
+  border: 1px solid grey;
+  border-radius: 20px;
+}
