@@ -102,6 +102,9 @@ video {
   transition: all 0.3s ease;
   margin: 5px;
 }
+.cards button:hover {
+  transform: scale(1.03);
+}
 
 .extra {
   width: 500px;
