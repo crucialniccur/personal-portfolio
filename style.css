@@ -72,3 +72,11 @@ nav > ul > li {
   max-width: 1200px;
   margin: auto;
 }
+
+.cards img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid grey;
+  border-radius: 45%;
+  margin: 2px;
+}
