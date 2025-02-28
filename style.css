@@ -80,3 +80,9 @@ nav > ul > li {
   border-radius: 45%;
   margin: 2px;
 }
+
+.realme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
