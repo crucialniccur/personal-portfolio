@@ -32,8 +32,17 @@
         <div class="cards">
           <h5>A Peek into my dating life.</h5>
           <p>Status Dating</p>
-          <video src="images/am-kidding.mp4" controls>Who i am dating</video>
-          <button>Reveal dating patner.</button>
+          <video
+            src="images/am-kidding.mp4"
+            controls
+            id="myVideo"
+            style="display: none"
+          >
+            Who i am dating
+          </video>
+          <button id="showVideo" onclick="amKidding()">
+            Click to Reveal dating patner.
+          </button>
         </div>
         <p class="cards">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
