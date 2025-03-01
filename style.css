@@ -14,9 +14,15 @@ p {
   color: #e9e8e6;
 }
 
+h2,
+h3 {
+  color: #f2fd7d;
+}
+
 nav {
   border-bottom: 2px dotted grey;
   width: 90%;
+  color: #f2fd7d;
 }
 
 nav > ul {
