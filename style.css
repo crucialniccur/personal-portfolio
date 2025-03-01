@@ -10,6 +10,10 @@ body {
   background-color: #28443f;
 }
 
+p {
+  color: #e9e8e6;
+}
+
 nav {
   border-bottom: 2px dotted grey;
   width: 90%;
