@@ -134,7 +134,7 @@ footer {
   gap: 20px;
 }
 
-.icon {
+footer .icon {
   color: #000;
   font-size: 24px;
   margin: 10px;
@@ -144,7 +144,7 @@ footer {
   transition: color 0.3s, background-color 0.3s;
 }
 
-.icon:hover {
+footer .icon:hover {
   color: #ff5733;
   background-color: #f0f0f0;
 }
