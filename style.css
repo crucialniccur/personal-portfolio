@@ -128,3 +128,8 @@ video {
   width: 500px;
   height: auto;
 }
+
+footer {
+  display: flex;
+  gap: 20px;
+}
