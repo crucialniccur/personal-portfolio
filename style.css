@@ -37,6 +37,8 @@ nav > ul > li {
 
 .logo {
   margin-right: auto;
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .projects {
