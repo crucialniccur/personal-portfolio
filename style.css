@@ -7,11 +7,22 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  background-color: #28443f;
+}
+
+p {
+  color: #e9e8e6;
+}
+
+h2,
+h3 {
+  color: #f2fd7d;
 }
 
 nav {
   border-bottom: 2px dotted grey;
   width: 90%;
+  color: #f2fd7d;
 }
 
 nav > ul {
@@ -24,12 +35,19 @@ nav > ul > li {
   list-style-type: none;
 }
 
+nav > ul > li > a {
+  text-decoration: none;
+  color: #f2fd7d;
+}
+
 .logo {
   margin-right: auto;
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .projects {
-  border: 1px solid;
+  border: 1px solid grey;
   border-radius: 10px;
   display: flex;
   flex-direction: column;

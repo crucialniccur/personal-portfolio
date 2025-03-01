@@ -10,49 +10,36 @@
     <!-- <header></header> -->
     <nav>
       <ul>
-        <li class="logo">Am Mati</li>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li class="logo" id="home">Am Mati</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
 
     <section class="container">
-      <h2>About Me</h2>
+      <h2 id="about-me">About Me</h2>
       <section class="about-me">
-        <div class="cards realme">
-          <img src="images/been busy_.jpeg" alt="this-is-me" />
-          <p>This is me. Hi! I am Joseph Mati .</p>
-        </div>
-        <div class="cards">
-          <h4>Who am i.</h4>
-          <p>I am Joseph Mati.</p>
-          <p>Currently studying Software Engineering at Moringa School.</p>
-        </div>
-        <div class="cards extra">
-          <h5>A Peek into my dating life.</h5>
-          <p>Status of to be revealed on clicking the button below.</p>
-          <video
-            src="images/am-kidding.mp4"
-            controls
-            id="myVideo"
-            style="display: none"
-            autoplay
-            muted
-          >
-            Who i am dating
-          </video>
-          <button id="showVideo" onclick="amKidding()">
-            Click to Reveal dating patner.
-          </button>
-        </div>
-        <div class="cards">
-          <h4>A random quote</h4>
-          <p class="cards">
-            The clearest way into the Universe is through a forest wilderness ~
-            John Muir (1838 - 1914), John of the Mountains, 1938
-          </p>
-        </div>
+        <p class="cards">
+          Who am i: <br />Hi, my name is Joseph Mati and this is my website
+          created using Html and Css.
+        </p>
+        <p class="cards">
+          My education: <br />In my education i have completed highschool in
+          Kenya and currently pursuing a course in Software Development at
+          Moringa School.
+        </p>
+        <p class="cards">
+          My Goals: <br />
+          Long term and short term goals are to learn skills i am able to
+          monetize and use my skills to buils projects that solve real life
+          world projects.
+        </p>
+        <p class="cards">
+          Fears: <br />Some things i am afraid of are, not achieving my goals
+          and now to the tech world is the fear of ai replacing jobs in the tech
+          industry.
+        </p>
       </section>
       <h2 class="center">Projects</h2>
       <section class="nest-projects">
@@ -85,14 +72,16 @@
         </div>
       </section>
 
-      <footer>
-        <p>Contact me.</p>
+      <h3>Contact Me.</h3>
+      <footer id="Contact">
         <address>
-          <a href="mailto:crucialniccur@gmail.com">Email me here </a>
-          <br />
-          <a href="https://www.instagram.com/am_.mati/#">instagram</a>
-          <br />
-          <a href="chrome://newtab/">Github</a>
+          <div class="cards">
+            <a href="mailto:crucialniccur@gmail.com">Email me here </a>
+          </div>
+          <div class="cards">
+            <a href="https://www.instagram.com/am_.mati/#">instagram</a>
+          </div>
+          <div class="cards"><a href="chrome://newtab/">Github</a></div>
         </address>
       </footer>
     </section>
